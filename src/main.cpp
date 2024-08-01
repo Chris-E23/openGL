@@ -23,6 +23,7 @@ int main() {
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
+     unsigned int VBO;
      
 
     while(!glfwWindowShouldClose(window))
@@ -30,6 +31,7 @@ int main() {
         
         glfwSwapBuffers(window);
         glfwPollEvents();    
+        //glUseProgram(shaderProgram);
 
         
     }
