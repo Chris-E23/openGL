@@ -42,7 +42,6 @@ public:
         {
             std::cout << "ERROR:SHADER::FILE_NOT_SUCCESSFULL_READ: " << e.what() << std::endl;
         }
-        // convert to char pointers?
         const char *vShaderCode = vertexCode.c_str();
         const char *fShaderCode = fragmentCode.c_str();
 
